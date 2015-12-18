@@ -1,0 +1,34 @@
+{
+  "name": "opentrace-wp-bootstrap-starter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "src/Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OpenTrace/wp-bootstrap-starter.git"
+  },
+  "keywords": [
+    "wordpress",
+    "bootstrap",
+    "theme",
+    "starter"
+  ],
+  "author": "Mark Rabey <http://markrabey.com> (mark@markrabey.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OpenTrace/wp-bootstrap-starter/issues"
+  },
+  "homepage": "https://github.com/OpenTrace/wp-bootstrap-starter#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.2.0",
+    "grunt": "^0.4.5",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^1.1.0"
+  }
+}
