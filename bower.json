@@ -1,0 +1,28 @@
+{
+  "name": "opentrace-wp-bootstrap-starter",
+  "description": "",
+  "main": "src/Gruntfile.js",
+  "authors": [
+    "Mark Rabey <http://markrabey.com> (mark@markrabey.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "wordpress",
+    "bootstrap",
+    "theme",
+    "starter"
+  ],
+  "homepage": "https://github.com/OpenTrace/wp-bootstrap-starter",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.6"
+  }
+}

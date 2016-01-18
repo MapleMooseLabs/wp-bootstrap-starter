@@ -1,16 +1,14 @@
 <?php get_header(); ?>
 
-<main>
+<main class="container">
 
-<p class="center">This is the index.php file</p>
-
-  <section class="wrap hpad clearfix">
+  <section class="row">
 
   <?php if (have_posts()): ?>
     <?php while (have_posts()): the_post(); ?>
 
     <article id="post-<?php the_ID(); ?>"
-             <?php post_class(); ?>
+        <?php post_class(); ?>
              itemscope itemtype="http://schema.org/BlogPosting">
 
       <header>
